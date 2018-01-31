@@ -88,7 +88,7 @@ h2 {
   display: flex;
   justify-content: flex-end;
   align-items: baseline;
-  margin: 100px auto;
+  margin: 50px auto;
   color: black;
   max-width: 1200px;
   font-family: 'Lato', sans-serif;
@@ -141,14 +141,12 @@ a:hover {
 
 @media all and (max-width: 1000px){
   .menu {
-    border: black solid 10px;
     justify-content: center;
   }
   .menu header {
     flex: 0 1 100%;
   }
   .menu ul {
-    border:black solid 10px;
     flex: 1 1 33%;
   }
 }
