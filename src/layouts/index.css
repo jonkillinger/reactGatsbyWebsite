@@ -68,17 +68,27 @@ h2 {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  
+  align-items: center;
+}
+
+.flex-nav li {
+  flex: 1 auto;
+}
+
+.email{
+
 }
 
 .menu header {
   margin-right: auto;
   margin-left: 5px;
-  flex: 0 0 auto;
+  flex: 0 auto auto;
   font-size: 57px;
   font-style: none;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
+
 }
 
 .flex-nav a {
@@ -98,4 +108,3 @@ h2 {
 a:hover {
   background:lightgrey;
 }
-

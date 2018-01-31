@@ -7,23 +7,23 @@ const IndexPage = () => (
   <div>
     <div className="menu">
       <header>
-        
+
         Jon Killinger
-        
+
       </header>
-        <nav className="flex-nav">
-            <ul>
-                <li>
-                    <a href="https://github.com/jonkillinger">Github </a>
-                </li>
-                <li>
-                    <a href='https://www.linkedin.com/in/jonkillinger/'>LinkedIn </a>
-                </li>
-                <li>
-                    <a href='mailto:killingerjon@gmail.com'>Killingerjon@gmail.com</a>
-                </li>
-            </ul>
-        </nav>
+      <nav className="flex-nav">
+        <ul>
+          <li>
+            <a href="https://github.com/jonkillinger">Github </a>
+          </li>
+          <li>
+            <a href='https://www.linkedin.com/in/jonkillinger/'>LinkedIn </a>
+          </li>
+          <li>
+            <a className = "email" href='mailto:killingerjon@gmail.com'>Killingerjon@gmail.com</a>
+          </li>
+        </ul>
+      </nav>
 
     </div>
 
