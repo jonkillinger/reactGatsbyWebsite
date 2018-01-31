@@ -12,8 +12,8 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'resume, work, jon, killinger' },
       ]}
     />
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
     <div>
       {children()}
     </div>
