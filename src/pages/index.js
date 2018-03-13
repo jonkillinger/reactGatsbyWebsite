@@ -11,9 +11,9 @@ const IndexPage = () => (
       </header>
       <nav className="flex-nav">
         <ul>
-          <li>
+          {/* <li>
             <a className="projects" href='#'>Projects</a>
-          </li>
+          </li> */}
           <li>
             <a href="https://github.com/jonkillinger">Github </a>
           </li>
